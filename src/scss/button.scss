@@ -1,0 +1,21 @@
+.button {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: unset;
+  font-size: 20px;
+  line-height: 100%;
+  align-self: flex-start;
+  border-radius: 10px;
+  color: #0751f5;
+  margin: 0;
+  padding: 1.5%;
+  &:hover{
+    background-color: #0751f5;
+    color: #f4f4f4;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .45s ease-out;
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Alex Zavizhenetc"/>
+  <title>test4BRAIN</title>
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>"/>
+  <link rel="icon" href="<%= require('./images/icon_cat.png').default%>"/>
+</head>
+<body class="body">
+<section class="voting">
+  <h1 class="voting__title">Выбери свой тип личности </h1>
+  <div class="voting__form-btn" id="voting-form">
+    <button  type="submit" class="button introvert-btn">интроверт</button>
+    <button  type="submit" class="button  extrovert-btn">экстраверт</button>
+    <button  type="submit" class="button dntknow-btn">не определился</button>
+    <button class="button button-show-results">Все равно. Покажите результаты</button>
+  </div>
+
+  <div class="result" id="result" >
+    <div class="result__container ">
+      <p class="result__total"></p>
+      <ul class="result__bars">
+        <template id="BarTemplate"> 
+          <li class="result__bar introvert" style="width: 30%;"><span class="result__bar-digit">30%</span>
+          </li>
+        </template>
+      
+      </ul>
+      <button class="button button-change-voit">Хочу еще раз</button>
+    </div>
+  </div>
+</section>
+
+<script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

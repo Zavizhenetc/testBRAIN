@@ -1,0 +1,44 @@
+.result {
+  width: 99%;
+  display: none;
+
+  &__container {
+  }
+
+  &__bars {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 10em;
+    justify-content: space-between;
+    list-style: none;
+    width: 95%;
+  }
+  &__total {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100%;
+    color: #f4f4f4;
+    background-color: #0751f5;
+    padding: 1.5%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  &__bar {
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 100%;
+    color: #f4f4f4;
+    background-color: #0751f5;
+    padding: 1.5%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 10px;
+  }
+
+  &__bar-digit {
+    padding-right: 0.7em;
+  }
+}
