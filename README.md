@@ -1,13 +1,13 @@
 
-[Посмотреть деплой ](https://zavizhenetc.github.io/test4brain/ )
+[Посмотреть деплой ](https://zavizhenetc.github.io/testBRAIN/ )
 ***
 1.Клонируем 
 
-``git clone https://github.com/Zavizhenetc/test4brain.git``
+``git clone https://github.com/Zavizhenetc/testBRAIN.git``
 
 2.переходим в папку с проектом 
 
-``` cd test4brain```
+``` cd testBRAIN```
 
 3.устанавливаем зависимости 
 

@@ -1,5 +1,5 @@
 {
-  "name": "test4brain",
+  "name": "testBRAIN",
   "version": "0.0.1",
   "description": "",
   "main": "./src/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zavizhenetc/test4BRAIN.git"
+    "url": "git+https://github.com/Zavizhenetc/testBRAIN.git"
   },
   "author": "Alex Zavizhenetc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zavizhenetc/test4BRAIN/issues"
+    "url": "https://github.com/Zavizhenetc/testBRAIN/issues"
   },
-  "homepage": "https://github.com/Zavizhenetc/test4BRAIN#readme",
+  "homepage": "https://github.com/Zavizhenetc/testBRAIN#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
